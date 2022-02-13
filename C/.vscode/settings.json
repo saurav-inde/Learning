@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "histogram.C": "cpp",
-        "tempCodeRunnerFile.C": "cpp"
-    }
+        "tempCodeRunnerFile.C": "cpp",
+        "stdio.h": "c"
+    },
+    "git.ignoreLimitWarning": true
 }

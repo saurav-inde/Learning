@@ -1,0 +1,7 @@
+# write a program in c to check that a given number is negative positive or zero.
+# write a program to check if the given alphabet is vovel or consonants.
+
+# write a program to check wheather the year is leap or not.
+# write a program to check wheather a character is alphabet or not.
+# write a program to check a character is uppercase or lowercase.
+# write a program to check if the number or odd.

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- this is forms tutorial -->
+
+    <!-- action is for telling where to submit in backend like dfjk.php -->
+    <!-- div tag is block element hence takes whole witdth and is modern replacemnt of br -->
+    <!-- name attribute is used by backend to identify  -->
+    <!-- types are radio submit number email password etc -->
+    <form action="backend.php">
+
+        <div>
+            Name : <input type="text" name="NAME" id="naam"><br><br>
+            Sname <input type="Sname" name="" id="snam"><br><br></div>
+        <div>ROll :&nbsp; <input type="number" name="NAME" id="roll"><br><br>
+            email: <input type="email" name="emal" id=""></div>
+        <div><br>
+            <label for="date">DATE</label>
+           
+            <!-- if used label than no need to write identifier again -->
+            <input type="date" name="" id="date"><br>
+            
+           <br> datetime: <input type="dateti" name="" id="datetime">
+        </div>
+        checkbox: <input type="checkbox" name="" id="" checked>
+       
+       
+        <div>
+            <!-- in radio buttons of same name only one can be selected -->
+            Gender: Male <input type="radio" name="gen" id="">
+            Female <input type="radio" name="gen" id="" checked>
+            lol <input type="radio" name="f" id="">
+            <!-- special type texaerea -->
+        </div>
+
+        <!-- select input type -->
+        <!-- label tag is used for any input field it takes for as id of 
+        that input field and name is set here Cars -->
+        <!-- advantage of label is that now even if we click on name of input field 
+        it gets clicked on field -->
+        <div>
+            <label for="myCar">Cars</label>
+            <select name="" id="myCar">
+                <option value="ind" selected>Indica</option>
+                <option value="hun">Honda</option>
+            </select>
+        </div>
+        About: <br> <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div>
+
+            <br>
+
+            <input type="reset" name="" id=""><br>
+            <input type="submit" name="" id="" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -7,4 +7,4 @@ def move(period):
         x += dx
         print("_"* abs(x))
 
-move(100)
+move(1000)

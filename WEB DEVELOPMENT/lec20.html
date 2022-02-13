@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            background-color: cornflowerblue;
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container {
+            background-color: #a6e682;
+            border: 3px solid #3810a9;
+            border-radius: 20px;
+
+            width: 300px;
+
+
+
+            padding-left: 9px;
+            padding-bottom: 20px;
+            padding-right: 9px;
+            padding-bottom: 2px;
+
+
+            /* padding-left: 9px;
+            padding-right: 9px;
+            padd top and bottom can be done sepretly
+
+            or padding: top/bottom left/right i.e. if same for top and bottom and same for left right 
+            eg-  padding : 45px 87px
+
+
+            and similary for margin; */
+            /* padding shorthand id padding: 54px 544px 45px 45px
+            top right bottom left */
+            margin: 19px;
+            
+            /* we have set width to 500px but if we change the padding 
+            we still se the width change because aacttual width also include
+            padding and margin....to avoid changing the width of element box we set box sizing to border box; */
+box-sizing: border-box;
+
+        }
+    </style>
+    <title>Box Model</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h3>This is a heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate esse itaque quibusdam
+            aliquid adipisci.</p>
+    </div>
+    <div class="container">
+
+        <h3>This is a heading</h3>
+        <p id="sec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate esse itaque quibusdam
+            aliquid adipisci.</p>
+    </div>
+    <div class="container">
+
+        <h3>This is a heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate esse itaque quibusdam
+            aliquid adipisci.</p>
+    </div>
+</body>
+
+</html>

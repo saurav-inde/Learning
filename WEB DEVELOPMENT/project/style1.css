@@ -1,0 +1,59 @@
+        * {
+            font-family: sans-serif;
+        }
+        
+        .navbar {
+            background-color: rgba(11, 11, 12, 0.952);
+            border-radius: 30px;
+        }
+        
+        .navbar ul {
+            overflow: auto;
+            /*i overflows from parent after float and it addresses the consequences*/
+        }
+        
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+            /*to set list numbering none*/
+        }
+        
+        .navbar li a {
+            text-decoration: none;
+            color: aliceblue;
+            /*removes text underline etc*/
+        }
+        
+        .searchbox {
+            box-sizing: border-box;
+            float: right;
+            ;
+            padding: 12px 25px;
+        }
+        
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 9px;
+            text-align: center;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .question {
+            border: 2px dotted black;
+            margin: 50px 50px;
+        }
+        
+        footer {
+            background-color: rgb(13, 14, 15);
+            color: aliceblue;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #footer1 {
+            text-decoration: double;
+        }

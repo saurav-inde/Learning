@@ -1,0 +1,8 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.associations": {
+        "cstdlib": "cpp",
+        "random": "cpp"
+    },
+    "svg.preview.background": "black"
+}

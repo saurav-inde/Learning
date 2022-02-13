@@ -2,9 +2,7 @@
 
 int main()
 {
-    int arr[10] = {0};
-    char character = '0';
-    arr[0]++;
-    printf("%d",arr[0]);
+    int num = 4.245e2;
+    printf("%i", "a");
     return 0;
 }

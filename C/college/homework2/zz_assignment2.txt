@@ -1,0 +1,12 @@
+# what are the differences between if else and switch case
+# which one of them are better to use and why
+* you can not use float variable in switch but you can use it in if else
+* if else gets more complicated than the switch cases because compiler creates jumps for switch cases
+
+
+PROGRAMS
+# write a program to find a maximum between 3 numbers
+# wap to check that a number is divisible by 3 and 5
+# wap to check wheather an entered character is uppercase lowercase or an alphabet
+# wap to check that a given month have how many days
+# wap and take three inputs as hour minute and second in 24 hour format and show that its am or pm

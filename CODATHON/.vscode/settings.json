@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.associations": {
+        "chrono": "cpp",
+        "iostream": "cpp",
+        "cstdio": "cpp",
+        "string": "cpp",
+        "cctype": "c"
+    }
+}
